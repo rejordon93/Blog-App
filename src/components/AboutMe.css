@@ -1,0 +1,81 @@
+.about-me-container {
+  margin-bottom: 240px;
+}
+
+/* Style the entire AboutMe component */
+.about-me-all {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ddd; /* Add a border for separation */
+  border-radius: 8px;
+  background-color: #fff; /* Add a background color */
+}
+
+.about-me-container h3 {
+  color: #333; /* Header text color */
+}
+
+.about-me-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+.about-me-container p {
+  text-align: justify;
+  color: #555; /* Paragraph text color */
+}
+
+/* Style the horizontal rules */
+.about-me-container hr {
+  border: none; /* Remove the border */
+  height: 1px; /* Set the height of the line */
+  background-color: #ddd; /* Horizontal rule color */
+}
+
+.about-me-container ul {
+  list-style: none; /* Remove list-style dots */
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.about-me-container ul li {
+  flex: 1 0 48%; /* Adjust the width of each item and add some space */
+  margin: 5px; /* Add some margin for spacing */
+  font-weight: bold;
+  color: #007bff; /* Category text color */
+}
+
+/* Style the FOLLOW US section */
+.follow-us {
+  display: flex;
+  align-items: center;
+}
+
+.about-me {
+  text-align: right; /* Align to the right */
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end; /* Align icons to the right */
+  margin-top: 20px; /* Adjust the top margin as needed */
+}
+
+.icons .icon {
+  font-size: 24px;
+  margin-right: 20px; /* Increase the margin to add more space between icons */
+  color: #e4405f; /* Icon color */
+}
+
+.about-me .icon {
+  font-size: 24px;
+  color: #e4405f; /* Instagram icon color */
+  margin-left: 10px; /* Add margin to separate icon from text */
+}
+
+/* Add any other styles you need */

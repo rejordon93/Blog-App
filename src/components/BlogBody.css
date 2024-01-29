@@ -1,0 +1,185 @@
+.blog-image {
+  width: 100%;
+  height: 600px; /* Adjust the height as needed */
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.blog-content {
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+/* Adjust the width of UsersBlogs and AboutMe */
+.blog-content > :first-child {
+  flex: 3;
+}
+
+.blog-content > :last-child {
+  flex: 1;
+}
+.blog-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Add gap between cards */
+}
+
+.cardh2 {
+  width: 100%; /* Set width to 100% to span the full width */
+}
+
+.blog-card {
+  width: calc(50% - 20px); /* Adjust the width and consider the gap */
+  margin-bottom: 20px; /* Add margin between cards */
+}
+
+img {
+  width: 100%;
+}
+
+/* Add or modify styles in your CSS file */
+.blog-content ul {
+  list-style: none; /* Remove list-style dots */
+  padding: 0; /* Remove default padding */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blog-content li {
+  flex: 1 0 48%; /* Adjust the width of each card and add some space */
+  margin: 10px; /* Add margin for spacing between cards */
+  border: 1px solid #ddd; /* Add a border for separation */
+  border-radius: 8px;
+  padding: 10px; /* Add padding for content spacing */
+  background-color: #fff; /* Add a background color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+
+/* Additional styling for the content inside the cards */
+.blog-content strong {
+  color: #007bff; /* Adjust the color for the category label */
+}
+
+.blog-content br {
+  display: none; /* Hide line breaks */
+}
+
+/* BlogBody.css */
+
+.blog-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: vertical; /* Allow vertical resizing */
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+select,
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+form {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+select,
+input[type="text"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: vertical; /* Allow vertical resizing */
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* BlogBody.css */
+
+/* ... (other styles) */
+
+form {
+  text-align: center;
+  margin: 0 auto; /* Add this line to center the form horizontally */
+  width: 50%;
+}
+
+.labelcente {
+  text-align: center;
+}
+
+.blog-textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical; /* Allow vertical resizing */
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
